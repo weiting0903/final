@@ -17,7 +17,11 @@
             Account account=(Account)request.getAttribute("account");
             out.println(account.getRealName());
         %>
-<!--Q5(15%): show the realName property of the current account object (hint: get the current account object via request attribute)-->
+        
+        <form action="loginSuccess.jsp" method="post">
+            <img src="outputimage1" style="width:500px;"></img>
+        </form>
         <a href="logout.jsp">Logout</a>
     </body>
+    
 </html>

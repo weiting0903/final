@@ -15,9 +15,6 @@
         <%
             request.getRequestDispatcher("/WEB-INF/form.jsp").forward(request,response);
         %>
-        <!--
-        Q2(10%): include form.jsp into this page as the login form
-        -->
     </body>
 </html>
 

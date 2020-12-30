@@ -15,11 +15,6 @@
         Try again!<br/>
         <%@include file="/WEB-INF/form.jsp" %>
         Failed <%=times%> times
-        <!--
-        Q6(20%):
-        include form.jsp
-        show how many times the login process fails
-        -->
-    
+        
 </html>
 

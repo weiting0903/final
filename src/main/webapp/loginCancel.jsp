@@ -13,5 +13,8 @@
     </head>
     <body>
         Sorry, fail too many times!
+        <form action="loginCancel.jsp" method="post">
+            <img src="outputimage" style="width:500px;"></img>
+        </form>
     </body>
 </html>

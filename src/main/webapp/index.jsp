@@ -12,11 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <!--
-        final result: https://www.loom.com/share/36017ec9905f40a7ab4bd47634821cc8
-        -->
         Welcome to this demonstration site, it is: <%= new java.util.Date()%>
-        <!--Q1(10%): display the current date time here--><br/>
         <a href="login.jsp">Login</a>
     </body>
 </html>
