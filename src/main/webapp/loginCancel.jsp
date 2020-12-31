@@ -16,5 +16,6 @@
         <form action="loginCancel.jsp" method="post">
             <img src="outputimage" style="width:500px;"></img>
         </form>
+        <a href="">Forget password?</a>
     </body>
 </html>

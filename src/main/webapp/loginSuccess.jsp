@@ -13,10 +13,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%
-            Account account=(Account)request.getAttribute("account");
-            out.println(account.getRealName());
-        %>
         
         <form action="loginSuccess.jsp" method="post">
             <img src="outputimage1" style="width:500px;"></img>

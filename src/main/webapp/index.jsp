@@ -9,8 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="refresh" content="1" >
         <title>JSP Page</title>
     </head>
+    <%
+        String [] colors=new String[]{"red", "green", "yello", "blue", "purple", "black"};
+        int index=((int)(Math.random()*1000)%6);
+        String color=colors[index];
+    %>
+  
+    <body bgcolor="<%=color%>">
+    </body>
     <body>
         Welcome to this demonstration site, it is: <%= new java.util.Date()%>
         <a href="login.jsp">Login</a>

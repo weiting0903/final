@@ -36,23 +36,16 @@ public class LoginServlet extends HttpServlet {
         Account account=Account.getAccount(userName);
         int times=Integer.valueOf(request.getParameter("times"));
         String url="";
-        /*
-        Q7(25%): forward the request to the correct url based on user input
-        correct-> /WEB-INF/loginSuccess.jsp
-        wrong-> /WEB-INF/loginFail.jsp or /WEB-INF/loginCancel.jsp (if times >2)
         
-        hint: look into form.jsp to see how the times attribute interact with this servlet
-        */
         if(account!=null && password.equals(account.getPassword())){
             request.setAttribute("account", account);
-            url="/WEB-INF/loginSuccess.jsp";
-        }else if(times<=2){
+            url="/loginSuccess.jsp";
+        }else if(times<=1){
             times++;
             request.setAttribute("times", ""+times);
             url="/WEB-INF/loginFail.jsp";
         }else{
-            times++;
-            url="/WEB-INF/loginCancel.jsp";
+            url="/loginCancel.jsp";
         }
         request.getRequestDispatcher(url).forward(request, response);
         
