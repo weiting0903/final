@@ -21,8 +21,9 @@
     <body bgcolor="<%=color%>">
     </body>
     <body>
-        Welcome!
-        It is: <%= new java.util.Date()%>
-        <a href="login.jsp">Login</a>
+        Welcome!<br/>
+        It is: <%= new java.util.Date()%><br/>
+        <a href="login.jsp">Login</a><br/>
+        <a href="">Sign up</a>
     </body>
 </html>

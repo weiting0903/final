@@ -13,7 +13,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        
         <form action="loginSuccess.jsp" method="post">
             <img src="outputimage1" style="width:500px;"></img>
         </form>
