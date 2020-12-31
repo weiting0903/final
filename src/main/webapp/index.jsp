@@ -23,7 +23,6 @@
     <body>
         Welcome!<br/>
         It is: <%= new java.util.Date()%><br/>
-        <a href="login.jsp">Login</a><br/>
-        <a href="">Sign up</a>
+        <a href="login.jsp">Login</a>
     </body>
 </html>
