@@ -11,10 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
-        Try again!<br/>
+        <h1>Try again!<br/></h1>
         <%@include file="/WEB-INF/form.jsp" %>
         Failed <%=times%> times
-        
+    
 </html>
 

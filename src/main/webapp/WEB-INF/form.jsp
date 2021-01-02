@@ -11,11 +11,15 @@
         times = Integer.valueOf(timesStr);
     }
 %>
+<%
+    String color="cornsilk";
+%>
+<body bgcolor="<%=color%>">
 <form method="POST" action="login">
     User Name: <input type="text" name="userName"/><br/>
     Password: <input type="password" name="password"/><br/>
     <input type="hidden" value="<%=times%>" name="times"/>
     <input type="submit"/>
 </form>
-    
+</body>
   

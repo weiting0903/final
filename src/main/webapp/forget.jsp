@@ -1,6 +1,6 @@
 <%-- 
-    Document   : loginCancel
-    Created on : 2020年12月30日, 上午3:20:38
+    Document   : forget
+    Created on : 2021年1月3日, 上午5:12:44
     Author     : weiting
 --%>
 
@@ -12,13 +12,14 @@
         <title>JSP Page</title>
     </head>
     <%
-       String color="cornsilk";
+       String color="cornflowerblue";
     %>
     <body bgcolor="<%=color%>">
-        <h1>Sorry, fail too many times!</h1>
-        <form action="loginCancel.jsp" method="post">
-            <img src="outputimage2" style="width:500px;"></img>
+        <h1>此功能尚未開放</h1>
+        <form>
+            <img src="outputimage" style="width:500px;"></img>
         </form>
-        <a href="forget.jsp">Forget password?</a>
+        <a href="index.jsp">回上一頁</a> 
     </body>
+</html>
 </html>

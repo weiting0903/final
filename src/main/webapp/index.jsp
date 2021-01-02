@@ -13,16 +13,13 @@
         <title>JSP Page</title>
     </head>
     <%
-        String [] colors=new String[]{"firebrick", "darkseagreen", "blanchedalmond", "cornsilk", "cornflowerblue","gray"};
-        int index=((int)(Math.random()*1000)%6);
-        String color=colors[index];
+       String color="cornsilk";
     %>
   
+
     <body bgcolor="<%=color%>">
-    </body>
-    <body>
-        Welcome!<br/>
-        It is: <%= new java.util.Date()%><br/>
-        <a href="login.jsp">Login</a>
+        <h1><%= new java.util.Date()%><br/></h1>
+        <a href="login.jsp">Login</a><br/>
+        <a href="register.jsp">Register</a>
     </body>
 </html>
