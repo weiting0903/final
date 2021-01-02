@@ -72,8 +72,9 @@ public class Account {
     
     private static Map<String, Account> accounts=new HashMap<>();
     static{
-        accounts.put("lendle", new Account("C.H", "lendle", "12345", "2000-10-10", false));
-        accounts.put("amy", new Account("amy", "amy", "12345", "1995-10-10", false));
+        accounts.put("xxx", new Account("jenna", "xxx", "123", "2000-10-10", false));
+        accounts.put("@@@", new Account("jiffery", "@@@", "456", "1995-10-10", false));
+        accounts.put("333", new Account("lian", "333", "789", "1998-02-20", false));
     }
     public static Account getAccount(String userName){
         return accounts.get(userName);

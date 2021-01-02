@@ -15,8 +15,13 @@
    <%
        String color="cornsilk";
     %>
+   
     <body bgcolor="<%=color%>">
-        <h1>Welcome!<br/>
+        <h1>Welcome!
+        <%
+            Account account=(Account)request.getAttribute("account");
+            out.println(account.getRealName());
+        %><br/>
         It is: <%= new java.util.Date()%><br/></h1>
         <form action="loginSuccess.jsp" method="post">
             <img src="outputimage1" style="width:500px;"></img>

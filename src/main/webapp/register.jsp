@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
      <%
-        String color="cornsilk";
+        String color="cornflowerblue";
     %>
     <body bgcolor="<%=color%>">
         <form method="POST" action="login">
