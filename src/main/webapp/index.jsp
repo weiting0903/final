@@ -17,7 +17,8 @@
   
 
     <body bgcolor="<%=color%>">
-        <h1><%= new java.util.Date()%><br/></h1>
+        <h2>Login and Register</h2>
+        <h3><%= new java.util.Date()%><br/></h3>
         <a href="login.jsp">Login</a><br/>
         <a href="register.jsp">Register</a>
     </body>
