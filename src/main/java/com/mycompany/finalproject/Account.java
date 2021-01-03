@@ -16,15 +16,15 @@ public class Account {
     private String realName=null;
     private String userName=null;
     private String password=null;
-    private String birthdate=null;
+    private String email=null;
     private boolean subscribe=false;
 
     public Account(String realName, String userName, 
-            String password, String birthdate, boolean subscribe) {
+            String password, String email, boolean subscribe) {
         this.realName=realName;
         this.userName=userName;
         this.password=password;
-        this.birthdate=birthdate;
+        this.email=email;
         this.subscribe=subscribe;
     }
     
@@ -54,12 +54,12 @@ public class Account {
         this.password = password;
     }
 
-    public String getBirthdate() {
-        return birthdate;
+    public String getEmail() {
+        return email;
     }
 
-    public void setBirthdate(String birthdate) {
-        this.birthdate = birthdate;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public boolean isSubscribe() {
@@ -72,9 +72,9 @@ public class Account {
     
     private static Map<String, Account> accounts=new HashMap<>();
     static{
-        accounts.put("xxx", new Account("jenna", "xxx", "123", "2000-10-10", false));
-        accounts.put("@@@", new Account("jiffery", "@@@", "456", "1995-10-10", false));
-        accounts.put("333", new Account("lian", "333", "789", "1998-02-20", false));
+        accounts.put("xxx", new Account("jenna", "xxx", "123", "xxx@hotmail", false));
+        accounts.put("@@@", new Account("jiffery", "@@@", "456", "yyy@hotmail", false));
+        accounts.put("333", new Account("lian", "333", "789", "ccc@hotmail", false));
     }
     public static Account getAccount(String userName){
         return accounts.get(userName);

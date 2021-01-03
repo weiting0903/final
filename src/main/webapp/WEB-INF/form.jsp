@@ -4,7 +4,9 @@
     Author     : weiting
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
+<head>
+    <title>Login</title>
+</head>
 <%
     String timesStr = (String) request.getAttribute("times");
     int times = 0;

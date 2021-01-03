@@ -9,22 +9,22 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Register</title>
     </head>
      <%
         String color="cornflowerblue";
     %>
     <body bgcolor="<%=color%>">
         <form method="POST" action="login">
-            <h1>註冊</h1><p>
+            <h2>Register</h2><p>
             User Name: <input type="text" name="userName"/><br/>
             Password: <input type="password" name="password"/><br/>
             Email: <input type="email" name="email"/><br/><p>
         </form>
         <h1>此功能尚未開放</h1>
         <form>
-            <img src="outputimage3" style="width:500px;"></img>
+            <img src="outputimage" style="width:500px;"></img>
         </form>
-        <a href="index.jsp">回上一頁</a>   
+        <a href="index.jsp">back to first page</a>   
     </body>  
 </html>

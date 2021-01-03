@@ -9,8 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="refresh" content="1" >
-        <title>JSP Page</title>
+        <title>Login and Register</title>
     </head>
     <%
        String color="cornsilk";

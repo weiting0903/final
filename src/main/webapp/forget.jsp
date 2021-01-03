@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Forget password</title>
     </head>
     <%
        String color="cornflowerblue";
@@ -19,7 +19,7 @@
         <form>
             <img src="outputimage" style="width:500px;"></img>
         </form>
-        <a href="index.jsp">回上一頁</a> 
+        <a href="index.jsp">back to first page</a> 
     </body>
 </html>
 </html>

@@ -9,13 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Cancel</title>
     </head>
     <%
        String color="cornsilk";
     %>
     <body bgcolor="<%=color%>">
-        <h1>使用者名稱或密碼錯誤太多次</h1>
+        <h2>The username is unknown or the password has been entered incorrectly too many times.</h2><p>
         <form action="loginCancel.jsp" method="post">
             <img src="outputimage2" style="width:500px;"></img>
         </form>

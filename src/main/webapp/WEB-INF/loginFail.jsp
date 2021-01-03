@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Fail</title>
     </head>
-        <h1>使用者名稱或密碼錯誤<br/></h1>
+        <h2>The username is unknown or the password has been entered incorrectly.</h2><p>
         <%@include file="/WEB-INF/form.jsp" %>
         Failed <%=times%> times
     

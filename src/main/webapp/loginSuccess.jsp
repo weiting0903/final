@@ -10,22 +10,25 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Success</title>
     </head>
    <%
        String color="cornsilk";
     %>
    
     <body bgcolor="<%=color%>">
-        <h1>歡迎!
+        <h1>Welcome!<br/>
         <%
             Account account=(Account)request.getAttribute("account");
             out.println(account.getRealName());
         %><br/>
-        現在是: <%= new java.util.Date()%><br/></h1>
+        <%
+            out.println(account.getEmail());
+        %><p></h1>
         <form action="loginSuccess.jsp" method="post">
             <img src="outputimage1" style="width:500px;"></img>
         </form>
+        Login time: <%= new java.util.Date()%><br/>
         <a href="logout.jsp">Logout</a>
     </body>
     
