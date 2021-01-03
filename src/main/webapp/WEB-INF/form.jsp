@@ -20,7 +20,7 @@
     User Name: <input type="text" name="userName"/><br/>
     Password: <input type="password" name="password"/><br/>
     <input type="hidden" value="<%=times%>" name="times"/>
-    <input type="submit" value="登入"/>
+    <input type="submit" value="Login"/>
 </form>
 </body>
   
