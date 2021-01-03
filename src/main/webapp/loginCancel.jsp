@@ -15,7 +15,7 @@
        String color="cornsilk";
     %>
     <body bgcolor="<%=color%>">
-        <h1>Sorry, fail too many times!</h1>
+        <h1>使用者名稱或密碼錯誤太多次</h1>
         <form action="loginCancel.jsp" method="post">
             <img src="outputimage2" style="width:500px;"></img>
         </form>

@@ -3,6 +3,7 @@
     Created on : 2020?12?30?, ??3:19:09
     Author     : weiting
 --%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%
     String timesStr = (String) request.getAttribute("times");
@@ -19,7 +20,7 @@
     User Name: <input type="text" name="userName"/><br/>
     Password: <input type="password" name="password"/><br/>
     <input type="hidden" value="<%=times%>" name="times"/>
-    <input type="submit"/>
+    <input type="submit" value="登入"/>
 </form>
 </body>
   

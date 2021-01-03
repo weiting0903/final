@@ -17,12 +17,12 @@
     %>
    
     <body bgcolor="<%=color%>">
-        <h1>Welcome!
+        <h1>歡迎!
         <%
             Account account=(Account)request.getAttribute("account");
             out.println(account.getRealName());
         %><br/>
-        It is: <%= new java.util.Date()%><br/></h1>
+        現在是: <%= new java.util.Date()%><br/></h1>
         <form action="loginSuccess.jsp" method="post">
             <img src="outputimage1" style="width:500px;"></img>
         </form>

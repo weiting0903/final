@@ -16,6 +16,7 @@
     %>
     <body bgcolor="<%=color%>">
         <form method="POST" action="login">
+            <h1>註冊</h1><p>
             User Name: <input type="text" name="userName"/><br/>
             Password: <input type="password" name="password"/><br/>
             Email: <input type="email" name="email"/><br/><p>
