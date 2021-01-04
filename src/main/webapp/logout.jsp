@@ -5,8 +5,10 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html>
 <%
     session.invalidate();
     response.sendRedirect("index.jsp");
 %>
+</html>
 
