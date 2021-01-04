@@ -19,7 +19,7 @@ public class MyDatabase {
     
     public static void main(String[] args) throws SQLException {
         // 要連接的資料庫 URL
-        String url = "jdbc:mariadb://localhost:3306/mysql";
+        String url = "jdbc:mysql://localhost:3306/mysql";
         // 連接的資料庫時使用的用戶名
         String user = "root";
         // 連接的資料庫時使用的密碼
